@@ -8,31 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		394704C02BCFC77800F1B092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704BF2BCFC77800F1B092 /* AppDelegate.swift */; };
-		394704C42BCFC77800F1B092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704C32BCFC77800F1B092 /* ViewController.swift */; };
+		394704C42BCFC77800F1B092 /* ControlPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704C32BCFC77800F1B092 /* ControlPanelViewController.swift */; };
 		394704C72BCFC77800F1B092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394704C52BCFC77800F1B092 /* Main.storyboard */; };
 		394704C92BCFC77900F1B092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394704C82BCFC77900F1B092 /* Assets.xcassets */; };
 		394704CC2BCFC77900F1B092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394704CA2BCFC77900F1B092 /* LaunchScreen.storyboard */; };
-		394704DA2BD0278900F1B092 /* SceneTypeBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704D92BD0278900F1B092 /* SceneTypeBaseProtocol.swift */; };
-		394704DC2BD027CC00F1B092 /* SceneTypeZoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704DB2BD027CC00F1B092 /* SceneTypeZoomModel.swift */; };
-		394704DE2BD0280100F1B092 /* SceneTypeCutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704DD2BD0280100F1B092 /* SceneTypeCutModel.swift */; };
-		394704E02BD0282500F1B092 /* SceneTypeBarndoorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704DF2BD0282500F1B092 /* SceneTypeBarndoorModel.swift */; };
-		394704E22BD0284300F1B092 /* SceneTypeGoboModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704E12BD0284300F1B092 /* SceneTypeGoboModel.swift */; };
-		394704E52BD028EB00F1B092 /* ControlTypeBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704E42BD028EB00F1B092 /* ControlTypeBaseProtocol.swift */; };
-		394704E72BD02C8000F1B092 /* ControlTypeSliderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704E62BD02C8000F1B092 /* ControlTypeSliderModel.swift */; };
-		394704E92BD02DEA00F1B092 /* ControlTypeOnOffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704E82BD02DEA00F1B092 /* ControlTypeOnOffModel.swift */; };
-		394704EB2BD0301C00F1B092 /* ControlTypeGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704EA2BD0301C00F1B092 /* ControlTypeGroupModel.swift */; };
-		394704ED2BD033AD00F1B092 /* MotionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704EC2BD033AD00F1B092 /* MotionInfo.swift */; };
-		394BE3C62BD0ADCE006649E1 /* ControlTypeFigureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3C52BD0ADCE006649E1 /* ControlTypeFigureModel.swift */; };
-		394BE3C82BD0B31C006649E1 /* SceneTypeSmokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3C72BD0B31C006649E1 /* SceneTypeSmokeModel.swift */; };
-		394BE3CA2BD0B65D006649E1 /* ControlFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3C92BD0B65D006649E1 /* ControlFactory.swift */; };
+		394704DA2BD0278900F1B092 /* ControlScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704D92BD0278900F1B092 /* ControlScene.swift */; };
+		394704DC2BD027CC00F1B092 /* ZoomControlScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704DB2BD027CC00F1B092 /* ZoomControlScene.swift */; };
+		394704DE2BD0280100F1B092 /* CutControlScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704DD2BD0280100F1B092 /* CutControlScene.swift */; };
+		394704E02BD0282500F1B092 /* BarndoorControlScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704DF2BD0282500F1B092 /* BarndoorControlScene.swift */; };
+		394704E22BD0284300F1B092 /* GoboControlScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704E12BD0284300F1B092 /* GoboControlScene.swift */; };
+		394704E52BD028EB00F1B092 /* ControlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704E42BD028EB00F1B092 /* ControlModel.swift */; };
+		394704E72BD02C8000F1B092 /* SliderControlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704E62BD02C8000F1B092 /* SliderControlModel.swift */; };
+		394704E92BD02DEA00F1B092 /* SwitchControlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704E82BD02DEA00F1B092 /* SwitchControlModel.swift */; };
+		394704EB2BD0301C00F1B092 /* ControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704EA2BD0301C00F1B092 /* ControlGroup.swift */; };
+		394704ED2BD033AD00F1B092 /* DeviceCapabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394704EC2BD033AD00F1B092 /* DeviceCapabilities.swift */; };
+		394BE3C62BD0ADCE006649E1 /* PatternSelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3C52BD0ADCE006649E1 /* PatternSelectionModel.swift */; };
+		394BE3C82BD0B31C006649E1 /* SmokeControlScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3C72BD0B31C006649E1 /* SmokeControlScene.swift */; };
+		394BE3CA2BD0B65D006649E1 /* ControlViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3C92BD0B65D006649E1 /* ControlViewFactory.swift */; };
 		394BE3CD2BD0B75B006649E1 /* ControlSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3CC2BD0B75B006649E1 /* ControlSliderView.swift */; };
 		394BE3CF2BD0BB26006649E1 /* ControlBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3CE2BD0BB26006649E1 /* ControlBaseView.swift */; };
-		394BE3D12BD0BDD3006649E1 /* MoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3D02BD0BDD3006649E1 /* MoreExtension.swift */; };
 		394BE3D32BD0C7BC006649E1 /* ControlOnOffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3D22BD0C7BC006649E1 /* ControlOnOffView.swift */; };
 		394BE3D52BD0CA3B006649E1 /* ControlFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3D42BD0CA3B006649E1 /* ControlFigureView.swift */; };
 		394BE3D72BD0E858006649E1 /* LayoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3D62BD0E858006649E1 /* LayoutTemplate.swift */; };
 		394BE3DA2BD0E93F006649E1 /* VerticalLayoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3D92BD0E93F006649E1 /* VerticalLayoutTemplate.swift */; };
-		394BE3DC2BD1086D006649E1 /* GogoLayoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3DB2BD1086D006649E1 /* GogoLayoutTemplate.swift */; };
+		394BE3DC2BD1086D006649E1 /* FillLayoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BE3DB2BD1086D006649E1 /* FillLayoutTemplate.swift */; };
 		394BE3E12BD13D02006649E1 /* motion_zoom_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 394BE3DD2BD13D02006649E1 /* motion_zoom_p@2x.png */; };
 		394BE3E22BD13D02006649E1 /* motion_zoom_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 394BE3DE2BD13D02006649E1 /* motion_zoom_n@3x.png */; };
 		394BE3E32BD13D02006649E1 /* motion_zoom_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 394BE3DF2BD13D02006649E1 /* motion_zoom_n@2x.png */; };
@@ -57,37 +56,38 @@
 		394BE4092BD18049006649E1 /* switch_onoff_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 394BE4072BD18049006649E1 /* switch_onoff_off@2x.png */; };
 		394BE40C2BD18059006649E1 /* switch_onoff_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 394BE40A2BD18059006649E1 /* switch_onoff_on@3x.png */; };
 		394BE40D2BD18059006649E1 /* switch_onoff_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 394BE40B2BD18059006649E1 /* switch_onoff_on@2x.png */; };
+		39BE247A3087D7E800DF1BF1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE24793087D7E800DF1BF1 /* UIView+Extension.swift */; };
+		39BE247D3087D81E00DF1BF1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE247C3087D81E00DF1BF1 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		394704BC2BCFC77800F1B092 /* TemplateFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394704BF2BCFC77800F1B092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		394704C32BCFC77800F1B092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		394704C32BCFC77800F1B092 /* ControlPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelViewController.swift; sourceTree = "<group>"; };
 		394704C62BCFC77800F1B092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		394704C82BCFC77900F1B092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		394704CB2BCFC77900F1B092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		394704CD2BCFC77900F1B092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		394704D92BD0278900F1B092 /* SceneTypeBaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTypeBaseProtocol.swift; sourceTree = "<group>"; };
-		394704DB2BD027CC00F1B092 /* SceneTypeZoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTypeZoomModel.swift; sourceTree = "<group>"; };
-		394704DD2BD0280100F1B092 /* SceneTypeCutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTypeCutModel.swift; sourceTree = "<group>"; };
-		394704DF2BD0282500F1B092 /* SceneTypeBarndoorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTypeBarndoorModel.swift; sourceTree = "<group>"; };
-		394704E12BD0284300F1B092 /* SceneTypeGoboModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTypeGoboModel.swift; sourceTree = "<group>"; };
-		394704E42BD028EB00F1B092 /* ControlTypeBaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlTypeBaseProtocol.swift; sourceTree = "<group>"; };
-		394704E62BD02C8000F1B092 /* ControlTypeSliderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlTypeSliderModel.swift; sourceTree = "<group>"; };
-		394704E82BD02DEA00F1B092 /* ControlTypeOnOffModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlTypeOnOffModel.swift; sourceTree = "<group>"; };
-		394704EA2BD0301C00F1B092 /* ControlTypeGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlTypeGroupModel.swift; sourceTree = "<group>"; };
-		394704EC2BD033AD00F1B092 /* MotionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionInfo.swift; sourceTree = "<group>"; };
-		394BE3C52BD0ADCE006649E1 /* ControlTypeFigureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlTypeFigureModel.swift; sourceTree = "<group>"; };
-		394BE3C72BD0B31C006649E1 /* SceneTypeSmokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTypeSmokeModel.swift; sourceTree = "<group>"; };
-		394BE3C92BD0B65D006649E1 /* ControlFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFactory.swift; sourceTree = "<group>"; };
+		394704D92BD0278900F1B092 /* ControlScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlScene.swift; sourceTree = "<group>"; };
+		394704DB2BD027CC00F1B092 /* ZoomControlScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomControlScene.swift; sourceTree = "<group>"; };
+		394704DD2BD0280100F1B092 /* CutControlScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutControlScene.swift; sourceTree = "<group>"; };
+		394704DF2BD0282500F1B092 /* BarndoorControlScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarndoorControlScene.swift; sourceTree = "<group>"; };
+		394704E12BD0284300F1B092 /* GoboControlScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoboControlScene.swift; sourceTree = "<group>"; };
+		394704E42BD028EB00F1B092 /* ControlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlModel.swift; sourceTree = "<group>"; };
+		394704E62BD02C8000F1B092 /* SliderControlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderControlModel.swift; sourceTree = "<group>"; };
+		394704E82BD02DEA00F1B092 /* SwitchControlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchControlModel.swift; sourceTree = "<group>"; };
+		394704EA2BD0301C00F1B092 /* ControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroup.swift; sourceTree = "<group>"; };
+		394704EC2BD033AD00F1B092 /* DeviceCapabilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCapabilities.swift; sourceTree = "<group>"; };
+		394BE3C52BD0ADCE006649E1 /* PatternSelectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternSelectionModel.swift; sourceTree = "<group>"; };
+		394BE3C72BD0B31C006649E1 /* SmokeControlScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeControlScene.swift; sourceTree = "<group>"; };
+		394BE3C92BD0B65D006649E1 /* ControlViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewFactory.swift; sourceTree = "<group>"; };
 		394BE3CC2BD0B75B006649E1 /* ControlSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSliderView.swift; sourceTree = "<group>"; };
 		394BE3CE2BD0BB26006649E1 /* ControlBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlBaseView.swift; sourceTree = "<group>"; };
-		394BE3D02BD0BDD3006649E1 /* MoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreExtension.swift; sourceTree = "<group>"; };
 		394BE3D22BD0C7BC006649E1 /* ControlOnOffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlOnOffView.swift; sourceTree = "<group>"; };
 		394BE3D42BD0CA3B006649E1 /* ControlFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFigureView.swift; sourceTree = "<group>"; };
 		394BE3D62BD0E858006649E1 /* LayoutTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutTemplate.swift; sourceTree = "<group>"; };
 		394BE3D92BD0E93F006649E1 /* VerticalLayoutTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalLayoutTemplate.swift; sourceTree = "<group>"; };
-		394BE3DB2BD1086D006649E1 /* GogoLayoutTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GogoLayoutTemplate.swift; sourceTree = "<group>"; };
+		394BE3DB2BD1086D006649E1 /* FillLayoutTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillLayoutTemplate.swift; sourceTree = "<group>"; };
 		394BE3DD2BD13D02006649E1 /* motion_zoom_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "motion_zoom_p@2x.png"; sourceTree = "<group>"; };
 		394BE3DE2BD13D02006649E1 /* motion_zoom_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "motion_zoom_n@3x.png"; sourceTree = "<group>"; };
 		394BE3DF2BD13D02006649E1 /* motion_zoom_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "motion_zoom_n@2x.png"; sourceTree = "<group>"; };
@@ -112,6 +112,8 @@
 		394BE4072BD18049006649E1 /* switch_onoff_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_onoff_off@2x.png"; sourceTree = "<group>"; };
 		394BE40A2BD18059006649E1 /* switch_onoff_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_onoff_on@3x.png"; sourceTree = "<group>"; };
 		394BE40B2BD18059006649E1 /* switch_onoff_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_onoff_on@2x.png"; sourceTree = "<group>"; };
+		39BE24793087D7E800DF1BF1 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		39BE247C3087D81E00DF1BF1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,15 +151,15 @@
 				394BE3CB2BD0B744006649E1 /* ControlView */,
 				394704E32BD028A200F1B092 /* ControlType */,
 				394704D82BD0277600F1B092 /* SceneType */,
+				39BE247B3087D7EF00DF1BF1 /* Extension */,
 				394704BF2BCFC77800F1B092 /* AppDelegate.swift */,
-				394704C32BCFC77800F1B092 /* ViewController.swift */,
+				394704C32BCFC77800F1B092 /* ControlPanelViewController.swift */,
 				394704C52BCFC77800F1B092 /* Main.storyboard */,
 				394704C82BCFC77900F1B092 /* Assets.xcassets */,
 				394704CA2BCFC77900F1B092 /* LaunchScreen.storyboard */,
 				394704CD2BCFC77900F1B092 /* Info.plist */,
-				394704EC2BD033AD00F1B092 /* MotionInfo.swift */,
-				394BE3C92BD0B65D006649E1 /* ControlFactory.swift */,
-				394BE3D02BD0BDD3006649E1 /* MoreExtension.swift */,
+				394704EC2BD033AD00F1B092 /* DeviceCapabilities.swift */,
+				394BE3C92BD0B65D006649E1 /* ControlViewFactory.swift */,
 			);
 			path = TemplateFlow;
 			sourceTree = "<group>";
@@ -165,12 +167,12 @@
 		394704D82BD0277600F1B092 /* SceneType */ = {
 			isa = PBXGroup;
 			children = (
-				394704D92BD0278900F1B092 /* SceneTypeBaseProtocol.swift */,
-				394704DB2BD027CC00F1B092 /* SceneTypeZoomModel.swift */,
-				394704DD2BD0280100F1B092 /* SceneTypeCutModel.swift */,
-				394704DF2BD0282500F1B092 /* SceneTypeBarndoorModel.swift */,
-				394704E12BD0284300F1B092 /* SceneTypeGoboModel.swift */,
-				394BE3C72BD0B31C006649E1 /* SceneTypeSmokeModel.swift */,
+				394704D92BD0278900F1B092 /* ControlScene.swift */,
+				394704DB2BD027CC00F1B092 /* ZoomControlScene.swift */,
+				394704DD2BD0280100F1B092 /* CutControlScene.swift */,
+				394704DF2BD0282500F1B092 /* BarndoorControlScene.swift */,
+				394704E12BD0284300F1B092 /* GoboControlScene.swift */,
+				394BE3C72BD0B31C006649E1 /* SmokeControlScene.swift */,
 			);
 			path = SceneType;
 			sourceTree = "<group>";
@@ -178,11 +180,11 @@
 		394704E32BD028A200F1B092 /* ControlType */ = {
 			isa = PBXGroup;
 			children = (
-				394704E42BD028EB00F1B092 /* ControlTypeBaseProtocol.swift */,
-				394BE3C52BD0ADCE006649E1 /* ControlTypeFigureModel.swift */,
-				394704E62BD02C8000F1B092 /* ControlTypeSliderModel.swift */,
-				394704E82BD02DEA00F1B092 /* ControlTypeOnOffModel.swift */,
-				394704EA2BD0301C00F1B092 /* ControlTypeGroupModel.swift */,
+				394704E42BD028EB00F1B092 /* ControlModel.swift */,
+				394BE3C52BD0ADCE006649E1 /* PatternSelectionModel.swift */,
+				394704E62BD02C8000F1B092 /* SliderControlModel.swift */,
+				394704E82BD02DEA00F1B092 /* SwitchControlModel.swift */,
+				394704EA2BD0301C00F1B092 /* ControlGroup.swift */,
 			);
 			path = ControlType;
 			sourceTree = "<group>";
@@ -203,7 +205,7 @@
 			children = (
 				394BE3D62BD0E858006649E1 /* LayoutTemplate.swift */,
 				394BE3D92BD0E93F006649E1 /* VerticalLayoutTemplate.swift */,
-				394BE3DB2BD1086D006649E1 /* GogoLayoutTemplate.swift */,
+				394BE3DB2BD1086D006649E1 /* FillLayoutTemplate.swift */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -237,6 +239,15 @@
 				394BE40A2BD18059006649E1 /* switch_onoff_on@3x.png */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		39BE247B3087D7EF00DF1BF1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				39BE24793087D7E800DF1BF1 /* UIView+Extension.swift */,
+				39BE247C3087D81E00DF1BF1 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,28 +346,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				394BE3CF2BD0BB26006649E1 /* ControlBaseView.swift in Sources */,
-				394704E72BD02C8000F1B092 /* ControlTypeSliderModel.swift in Sources */,
-				394BE3C82BD0B31C006649E1 /* SceneTypeSmokeModel.swift in Sources */,
-				394704C42BCFC77800F1B092 /* ViewController.swift in Sources */,
+				394704E72BD02C8000F1B092 /* SliderControlModel.swift in Sources */,
+				394BE3C82BD0B31C006649E1 /* SmokeControlScene.swift in Sources */,
+				394704C42BCFC77800F1B092 /* ControlPanelViewController.swift in Sources */,
 				394704C02BCFC77800F1B092 /* AppDelegate.swift in Sources */,
-				394704EB2BD0301C00F1B092 /* ControlTypeGroupModel.swift in Sources */,
-				394704E52BD028EB00F1B092 /* ControlTypeBaseProtocol.swift in Sources */,
-				394BE3C62BD0ADCE006649E1 /* ControlTypeFigureModel.swift in Sources */,
-				394704DC2BD027CC00F1B092 /* SceneTypeZoomModel.swift in Sources */,
-				394BE3DC2BD1086D006649E1 /* GogoLayoutTemplate.swift in Sources */,
+				394704EB2BD0301C00F1B092 /* ControlGroup.swift in Sources */,
+				394704E52BD028EB00F1B092 /* ControlModel.swift in Sources */,
+				394BE3C62BD0ADCE006649E1 /* PatternSelectionModel.swift in Sources */,
+				394704DC2BD027CC00F1B092 /* ZoomControlScene.swift in Sources */,
+				39BE247D3087D81E00DF1BF1 /* UIColor+Extension.swift in Sources */,
+				394BE3DC2BD1086D006649E1 /* FillLayoutTemplate.swift in Sources */,
 				394BE3D32BD0C7BC006649E1 /* ControlOnOffView.swift in Sources */,
-				394BE3CA2BD0B65D006649E1 /* ControlFactory.swift in Sources */,
+				394BE3CA2BD0B65D006649E1 /* ControlViewFactory.swift in Sources */,
 				394BE3D72BD0E858006649E1 /* LayoutTemplate.swift in Sources */,
 				394BE3CD2BD0B75B006649E1 /* ControlSliderView.swift in Sources */,
-				394704E22BD0284300F1B092 /* SceneTypeGoboModel.swift in Sources */,
-				394BE3D12BD0BDD3006649E1 /* MoreExtension.swift in Sources */,
-				394704E02BD0282500F1B092 /* SceneTypeBarndoorModel.swift in Sources */,
+				394704E22BD0284300F1B092 /* GoboControlScene.swift in Sources */,
+				394704E02BD0282500F1B092 /* BarndoorControlScene.swift in Sources */,
 				394BE3DA2BD0E93F006649E1 /* VerticalLayoutTemplate.swift in Sources */,
+				39BE247A3087D7E800DF1BF1 /* UIView+Extension.swift in Sources */,
 				394BE3D52BD0CA3B006649E1 /* ControlFigureView.swift in Sources */,
-				394704E92BD02DEA00F1B092 /* ControlTypeOnOffModel.swift in Sources */,
-				394704DA2BD0278900F1B092 /* SceneTypeBaseProtocol.swift in Sources */,
-				394704ED2BD033AD00F1B092 /* MotionInfo.swift in Sources */,
-				394704DE2BD0280100F1B092 /* SceneTypeCutModel.swift in Sources */,
+				394704E92BD02DEA00F1B092 /* SwitchControlModel.swift in Sources */,
+				394704DA2BD0278900F1B092 /* ControlScene.swift in Sources */,
+				394704ED2BD033AD00F1B092 /* DeviceCapabilities.swift in Sources */,
+				394704DE2BD0280100F1B092 /* CutControlScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +520,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C6TTF7VT5L;
+				DEVELOPMENT_TEAM = 43X9H5CSF2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TemplateFlow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -535,7 +547,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C6TTF7VT5L;
+				DEVELOPMENT_TEAM = 43X9H5CSF2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TemplateFlow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

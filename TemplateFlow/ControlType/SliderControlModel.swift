@@ -1,5 +1,5 @@
 //
-//  ControlTypeSliderModel.swift
+//  SliderControlModel.swift
 //  TemplateFlow
 //
 //  Created by Howard-Zjun on 2024/04/18.
@@ -7,26 +7,24 @@
 
 import Foundation
 
-class ControlTypeSliderModel: ControlTypeBaseProtocol {
-    
-    var nowValue: Int = 0
+class SliderControlModel: ControlModel {
 
-    var identify: String {
+    var value: Int = 0
+
+    var reuseIdentifier: String {
         NSStringFromClass(Self.self)
     }
-    
-    var isSupport: Bool = false
-    
+
     var minValue: Int = 0
-    
+
     var maxValue: Int = 100
-    
+
     var name: String = ""
-    
-    init(minValue: Int, maxValue: Int, nowValue: Int, name: String) {
+
+    init(minValue: Int, maxValue: Int, value: Int, name: String) {
         self.minValue = minValue
         self.maxValue = maxValue
-        self.nowValue = nowValue
+        self.value = value
         self.name = name
     }
 }

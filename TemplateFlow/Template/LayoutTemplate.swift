@@ -8,6 +8,6 @@
 import Foundation
 
 protocol LayoutTemplate {
-    
+
     func layout(controlView: ControlBaseView, index: Int, startPoint: CGPoint, endPoint: CGPoint)
 }
